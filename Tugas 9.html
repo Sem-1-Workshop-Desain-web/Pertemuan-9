@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Menentukan karakter set untuk dokumen HTML -->
+    <meta charset="UTF-8" />
+    <!-- Menentukan pengaturan viewport untuk mendukung responsif di perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Judul halaman web -->
+    <title>Tugas 9</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Container utama dengan padding dan margin -->
+    <div class="container mx-auto p-10 my-5">
+      
+      <!-- Membuat grid dengan 3 kolom besar pada layar besar dan 1 kolom pada perangkat kecil -->
+      <div
+        class="container grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto my-5 gap-3"
+      >
+      
+        <!-- Paket Personal -->
+        <div class="col-span-1 bg-blue-500 py-5 px-8">
+          <div class="container mx-auto text-center">
+            <!-- Deskripsi paket -->
+            <p class="text-slate-300 font-bold">Try Now</p>
+            <!-- Nama paket Personal -->
+            <h1 class="font-bold text-2xl text-white">Personal</h1>
+            <div class="container my-11 flex justify-center">
+              <!-- Simbol euro dan harga paket Personal -->
+              <span class="font-bold align-top text-3xl text-white">&euro;</span
+              ><span class="font-bold text-7xl text-white">0</span>
+            </div>
+            <!-- Tombol untuk mulai menggunakan paket -->
+            <button class="rounded-lg bg-white py-2 px-3 font-bold">
+              Get Started
+            </button>
+          </div>
+        </div>
+        
+        <!-- Paket Professional -->
+        <div class="col-span-1 bg-red-500 py-5 px-8">
+          <div class="container mx-auto text-center">
+            <!-- Deskripsi paket -->
+            <p class="text-slate-300 font-bold">Most Popular</p>
+            <!-- Nama paket Professional -->
+            <h1 class="font-bold text-2xl text-white">Professional</h1>
+            <div class="container my-11 flex justify-center">
+              <!-- Simbol euro dan harga paket Professional -->
+              <span class="font-bold align-top text-3xl text-white">&euro;</span
+              ><span class="font-bold text-7xl text-white">19</span>
+            </div>
+            <!-- Tombol untuk mulai menggunakan paket -->
+            <button class="rounded-lg bg-white py-2 px-3 font-bold">
+              Get Started
+            </button>
+          </div>
+        </div>
+        
+        <!-- Paket Enterprise -->
+        <div class="col-span-1 bg-green-500 py-5 px-8">
+          <div class="container mx-auto text-center">
+            <!-- Deskripsi paket -->
+            <p class="text-slate-300 font-bold">Full Featured</p>
+            <!-- Nama paket Enterprise -->
+            <h1 class="font-bold text-2xl text-white">Enterprise</h1>
+            <div class="container my-11 flex justify-center">
+              <!-- Simbol euro dan harga paket Enterprise -->
+              <span class="font-bold align-top text-3xl text-white">&euro;</span
+              ><span class="font-bold text-7xl text-white">49</span>
+            </div>
+            <!-- Tombol untuk mulai menggunakan paket -->
+            <button class="rounded-lg bg-white py-2 px-3 font-bold">
+              Get Started
+            </button>
+          </div>
+        </div>
+        
+      </div> <!-- Penutup grid -->
+    </div> <!-- Penutup container utama -->
+  </body>
+</html>
